@@ -1,0 +1,71 @@
+<DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> 201795063 </title>
+	</head>
+	<body>
+	<p align="center">
+	<font size="6"><b>동아리 가입서</b></font>
+	</p>
+	<form action="ok.html" method="post">
+	<table width=580 align="center" border="1" cellpadding="5">
+	<tr>
+		<td width="180" height="30" align="center"> 동아리 명</td>
+		<td width="400"><font size="5">
+		<b>카리스마</b></font></td>
+	</tr>
+	<tr>
+		<td headers="30" align="center">이 름</td>
+		<td><input type="text" size="20" name="name" placeholder="아이디를 입력하시오." required></td>
+	</tr>
+<tr>
+	<td headers="30" align="center">학부	/	학과</td>
+	<td><select name="major" size="1">
+	<option>컴퓨터정보공학부</option>
+	<option>IT학과</option>
+	<option>컴퓨터소프트웨어공학부</option>
+	</td>
+</tr>
+<tr>
+	<td height="30" align="center">학 년</td>
+	<td>
+	<input type="radio" value="1" name="year1" checked>1학년 &nbsp;&nbsp;
+	<input type="radio" value="2" name="year2">2학년 &nbsp;&nbsp;
+	<input type="radio" value="3" name="year3">3학년 &nbsp;&nbsp;
+	<input type="radio" value="4" name="year4">4학년</td>
+</tr>
+<tr>
+	<td height="30" align="center">학 번</td>
+	<td><input type="text" size="20" name="num" placeholder="학번을 입력하시오." required></td>
+</tr>
+<tr>
+	<td height="30" align="center">이메일 </td>
+	<td><input type="text" size="50" name="add" placeholder="이메일을 입력하시오." autocomplete="off" required></td>
+</tr>
+<tr>
+	<td height="30" align="center">주 소</td>
+	<td><input type="text" name="50" name="add" placeholder="주소를 입력하시오" required></td>
+</tr>
+<tr>
+	<td rowspan="2" height="30" align="center">연락처</td>
+	<td><input type="radio" value="home" name="tel"> 집 &nbsp;&nbsp;
+	<input type="radio" value="pcs" name="tel">휴대 </td>
+</tr>
+<tr>
+	<td><input type="text" size="20" name="phone" pattern="\d{2,3}-\d{3}-\d{4}$" placeholder="전화번호를 입력하시오." required></td>
+</tr>
+<tr>
+	<td height="30" align="center">자기 소개</td>
+	<td><textarea rows="6" cols="50" name="you">당신은 어떤 사람인가요?</textarea>
+</tr>
+<tr>
+	<td colspan="2" height="30" align="center">
+	<input type="submit" value="가입하기">&nbsp;&nbsp;
+	<input type="reset" value="취소하기"></td>
+</tr>
+</table>
+</form>
+</body>
+
+</html>
